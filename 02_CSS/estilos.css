@@ -1,0 +1,52 @@
+/* Estilo universal, para todos los elementos de este HTML */
+* {
+    margin: 0 auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+/* Estilos sobre etiquetas */
+body {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+/* Todos los button serán afectados por estos estilos */
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #ccc;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 18px;
+}
+
+/* Estilos para las class */
+.fondo-rojo {
+    background-color: red;
+}
+
+.fondo-morado {
+    background-color: blueviolet;
+}
+
+/* Estilos para los IDs */
+#guardar {
+    font-weight: bold;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+span {
+    color: green;
+}
+
+/* Estilo descendiente.. solo aplicará sobre este span cuando esté dentro de p */
+p span {
+    color: blueviolet;
+}

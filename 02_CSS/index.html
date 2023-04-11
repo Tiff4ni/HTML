@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- La primera forma de aplicar estilos, se hace directamente en el elemento -->
+    <form style="text-align: center;">
+      <div>
+        <label style="font-family: 'Segoe UI', sans-serif; font-size: 18px;">Nombre:</label>
+        <input type="text" />
+      </div>
+      <div>
+        <label style="font-family: 'Segoe UI', sans-serif; font-size: 18px;">Apellido:</label>
+        <input type="text" />
+      </div>
+      <div>
+        <!-- Para esto tenemos que agregar el atributo style y poner dentro de él
+        los valores en el formato clave:valor; -->
+        <button
+          style="
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            margin: 20px 0px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px #ccc;
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 18px;
+          "
+        >
+          Guardar
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
