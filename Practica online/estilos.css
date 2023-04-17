@@ -1,0 +1,140 @@
+/* Estilo universal, para todos los elementos de este HTML */
+* {
+    margin: 0 auto;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+/* Estilos sobre etiquetas */
+body {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.titulo{
+    color:rgb(122, 37, 21);
+    margin: 10px;
+}
+
+.img{
+    width: 150px;
+    margin: 0px 10px;
+    padding: 0px;
+    float: none;
+}
+
+
+
+/* Todos los button serán afectados por estos estilos */
+button {
+    background-color: rgb(250, 102, 76);
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 1px 1px 1px #ccc;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.cuadroTexto {
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(218, 105, 85) solid;
+    box-shadow: 1px 1px 1px #ccc;
+    font-size: 13px;
+}
+
+.check {
+    border: none;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+ul{
+    width: 200px;
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    clear: both;
+    color:#ffffff;
+}
+
+ul li{
+    padding: 4px;
+    padding-left: 14%;
+    background-color: rgb(248, 129, 108);
+    border-top: 2px solid rgb(250, 102, 76);
+    border-right: 1px solid rgb(250, 102, 76);
+    border-left: 1px solid rgb(250, 102, 76);
+    transition: all 0.1s;
+}
+
+ul li:last-child{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+ul li:hover{
+    cursor:pointer;
+    background-color: rgb(248, 112, 88);
+    font-size: 17px;
+    transform: scale(1,1);
+    
+}
+
+ul.menu{
+    clear: both;
+    float: left;
+    width: 100%;
+    border: none;
+}
+
+ul.menu li{
+    text-align: center;
+    float: right;
+    padding: 0.9%;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    
+}
+
+ul.menu li:last-child{
+    border-right: 1px solid rgb(255, 255, 255);
+    
+}
+
+@media screen and (max-width: 600px){
+    ul.menu{
+        width: 400px;
+        float: none;
+    }
+
+    ul.menu li{
+        float: none;
+    }
+}
+
+ul.menu li:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+ul.menu li:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.boton-flotante {
+	padding:15px;
+	background:#ee6f49;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom: 0px;
+	right: 10px;
+}
