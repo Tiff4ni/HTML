@@ -94,7 +94,7 @@ ul.menu{
 
 ul.menu li{
     text-align: center;
-    float: right;
+    float: left;
     padding: 0.9%;
     border-top: 1px solid rgb(255, 255, 255);
     border-bottom: 1px solid rgb(255, 255, 255);
@@ -111,7 +111,7 @@ ul.menu li:last-child{
 @media screen and (max-width: 600px){
     ul.menu{
         width: 400px;
-        float: none;
+        float: none ;
     }
 
     ul.menu li{
@@ -132,7 +132,6 @@ ul.menu li:last-child{
 .boton-flotante {
 	padding:15px;
 	background:#ee6f49;
-	color:#fff;
 	cursor:pointer;
 	position: fixed;
 	bottom: 0px;
